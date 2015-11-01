@@ -87,7 +87,7 @@
 
 ::selection{
     background: rgba(241, 143, 174, 0.05);
-    color: #D6D3BA;
+    color: #AFAB8B;
     text-shadow: none;
 }
 
@@ -112,6 +112,7 @@
 	width: 600px;
 	height: 450px;
 	text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	text-align: center;
 }
 
 .container
@@ -120,6 +121,7 @@
 	padding-top: 102px;
 	padding-bottom: 102px;
 	text-align: center;
+	color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -155,10 +157,13 @@ h4
 p
 {
 	width: 500px;
-	font-size: 14px;
+	font-size: 14.2px;
+	font-weight: 400;
+	line-height: 1.45;
 	margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    font-style: normal;
 }
 
 .section_background
@@ -175,7 +180,7 @@ p
 .image_text
 {
 	width: 350px;
-	padding-left: 50px;
-    padding-top: 50px;
+	padding-left: 30px;
+    padding-top: 40px;
 	color: white;
 }
