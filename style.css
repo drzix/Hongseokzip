@@ -1,0 +1,160 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Yoon-Gothic";
+	text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	letter-spacing: -0.01em;
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-709.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-709.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic 100';
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-709.eot");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-720.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-720.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic 200';
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-720.eot");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-760.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-760.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic 500';
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-760.eot");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-774.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-774.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic 600';
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-774.eot");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-790.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-790.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic 700';
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-790.eot");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+@font-face {
+	font-family:'Yoon Gothic';
+	font-style:normal;
+	font-weight:400;
+	src:url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-750.eot");
+	src:local('☺︎'), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-750.woff") format("woff"), url("/wss/fonts/Yoon-Gothic/v1/YoonGothic-750.ttf") format("truetype");
+	/* Copyright © 2012 YoonDesign Inc. All rights reserved. */
+}
+
+::selection{
+    background: rgba(241, 143, 174, 0.05);
+    color: #D6D3BA;
+    text-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.45em;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: rgba(20, 19, 60, 0.78);
+}
+::-webkit-scrollbar-thumb:hover{    
+    background: rgba(7, 5, 66, 0.78);
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.header
+{
+	background: url("./images/1.jpg");
+	width: 600px;
+	height: 450px;
+}
+
+.container
+{
+	width: 600px;
+	margin-top: 82px;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 0 0.3em 0;
+}
+
+h1
+{
+	font-weight: 200;
+	font-size: 50px;
+}
+
+h2
+{
+	font-weight: 200;
+	font-size: 32px;
+}
+
+h3
+{
+	font-weight: 200;
+	font-size: 22px;
+}
+
+h4
+{
+	margin-top: 40px;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.image_text
+{
+	width: 350px;
+	padding-left: 50px;
+    padding-top: 30px;
+	color: white;
+}
