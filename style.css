@@ -148,6 +148,83 @@ p
     font-style: normal;
 }
 
+.show
+{
+	animation: fly 0.8s linear;
+	-moz-animation: fly 0.8s linear;
+	-webkit-animation: fly 0.8s linear;
+	-o-animation: fly 0.8s linear;
+}
+
+@keyframes fly
+{
+	from { margin-left: -100px; color: transparent;}
+	to { margin-left: 0; color: white;}
+}
+
+@-moz-keyframes fly
+{
+	from { margin-left: -100px; color: transparent;}
+	to { margin-left: 0; color: white;}
+}
+
+@-o-keyframes fly
+{
+	from { margin-left: -100px; color: transparent;}
+	to { margin-left: 0; color: white;}
+}
+
+@-webkit-keyframes fly
+{
+	from { margin-left: -100px; color: transparent;}
+	to { margin-left: 0; color: white;}
+}
+
+.fade
+{
+	animation: fadein 3s linear;
+	-moz-animation: fadein 3s linear;
+	-webkit-animation: fadein 3s linear;
+	-o-animation: fadein 3s linear;
+}
+
+@keyframes fadein
+{
+	from { color: transparent;}
+	to { color: white;}
+}
+
+@-moz-keyframes fadein
+{
+	from { color: transparent;}
+	to { color: white;}
+}
+
+@-o-keyframes fadein
+{
+	from { color: transparent;}
+	to { color: white;}
+}
+
+@-webkit-keyframes fadein
+{
+	from { color: transparent;}
+	to { color: white;}
+}
+
+.textshow
+{
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+.textshow:hover
+{
+	color: #B95C86;
+}
+
 .header
 {
 	background: url("./images/1.jpg");
@@ -188,9 +265,4 @@ p
 .gray
 {
 	color: #A7A7A7;
-}
-
-.footer
-{
-	text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
